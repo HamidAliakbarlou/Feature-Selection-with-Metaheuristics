@@ -1,4 +1,4 @@
-## Feature Selection with Metaheuristics
+## Feature Selection with Metaheuristics (Genetic Algorithm)
 
 #### Coding from scratch for feature selection process with Genetic Algorithm:
 
