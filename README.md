@@ -3,7 +3,9 @@
 #### Coding from scratch for feature selection process (Python implementation of the Genetic Algorithm to select the best features for machine learning):
 
 
-Feature selection is a critical stage in machine learning, enhancing both computational efficiency and predictive accuracy by retaining only the most pertinent predictors. Alongside widely used supervised feature selection approaches such as filter and wrapper methods, global search methods like Genetic Algorithm emerge as potent techniques for this purpose.
+Feature selection is a critical stage in machine learning, enhancing both computational efficiency and predictive accuracy by retaining only the most pertinent predictors. Feature selection is an NP-hard problem, and there is no algorithm that can be used to solve it in polynomial time. Given the number of variables, we can find the number of variables(n) to the power of 2 for our feature combinations.
+
+Alongside widely used supervised feature selection approaches such as filter and wrapper methods, global search methods like Genetic Algorithm emerge as potent techniques for this purpose.
 
 In our project, we introduce modern metaheuristic methods designed to identify viable solutions in feature selection tasks using a Support Vector Machine model. This includes Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm, offering a diverse array of approaches to optimize feature selection processes.
 
