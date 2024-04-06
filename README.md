@@ -17,3 +17,6 @@ variable Y is a binary variable with two levels: good credit and bad credit. If 
 labelled as 0, it indicates that he or she has "bad credit" based on the 21 variables associated, or
 vice versa. Each variable is described in detail in the appendix (Table 1: Description of the
 dataset).
+
+Granting credit plays a key role in financial transactions. This task typically involves a lot of borrower-related variables. However, in many situations, having a large number of variables can introduce noise into the database when building predictive models. In this context, feature selection presents itself as a way to simplify a database by identifying key features, reducing computational costs, and improving prediction performance.
+
