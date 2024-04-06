@@ -2,8 +2,10 @@
 
 #### Coding from scratch for feature selection process (Python implementation of the Genetic Algorithm to select the best features for machine learning):
 
-In this project, we offer a modern metaheuristic methods for finding feasible solutions with a machine learning model (Support Vector Machine) for feature selection tasks: Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm.
 
+Feature selection is a critical stage in machine learning, enhancing both computational efficiency and predictive accuracy by retaining only the most pertinent predictors. Alongside widely used supervised feature selection approaches such as filter and wrapper methods, global search methods like Genetic Algorithm emerge as potent techniques for this purpose.
+
+In our project, we introduce modern metaheuristic methods designed to identify viable solutions in feature selection tasks using a Support Vector Machine model. This includes Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm, offering a diverse array of approaches to optimize feature selection processes.
 
 ## Dataset
 The dataset we used for this project is the German Credit Data, which categorises loan applicants
