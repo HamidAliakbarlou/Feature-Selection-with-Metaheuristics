@@ -1,4 +1,4 @@
-## Feature Selection with Metaheuristics (Genetic Algorithm)
+## Feature Selection with Metaheuristics (Genetic Algorithm, SA, VNS)
 
 #### Coding from scratch for feature selection process (Python implementation of the Genetic Algorithm to select the best features for machine learning):
 
