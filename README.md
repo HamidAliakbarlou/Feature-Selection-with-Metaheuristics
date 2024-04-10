@@ -1,13 +1,12 @@
-## Feature Selection with Metaheuristics (Genetic Algorithm, SA, VNS)
+# Feature Selection with Metaheuristics (Genetic Algorithm, SA, VNS)
 
-#### Coding from scratch for feature selection process (Python implementation of the Genetic Algorithm to select the best features for machine learning):
+### Python Implementation of Metaheuristic Feature Selection for Enhanced Credit Granting"
 
+Feature selection is imperative in machine learning, improving computational efficiency and predictive accuracy by isolating relevant predictors. However, the task is complex, being NP-hard and lacking polynomial time solutions. To address this challenge, our project explores modern metaheuristic methods, including Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm, applied to feature selection tasks using a Support Vector Machine model. These approaches offer diverse strategies to streamline feature selection processes and enhance model efficacy.
 
-Feature selection is a critical stage in machine learning, enhancing both computational efficiency and predictive accuracy by retaining only the most pertinent predictors. Feature selection is an NP-hard problem, and there is no algorithm that can be used to solve it in polynomial time. Given the number of variables, we can find the number of variables(n) to the power of 2 for our feature combinations.
+Our study showcases significant advancements in prediction accuracy compared to the base model with all features activated. Notably, the SVM model achieved a substantial increase in validation set accuracy, from 0.70625 to 0.742, representing an improvement of approximately 5%. Despite a slight decrease in accuracy on the test set, the models demonstrated robust generalization capabilities on unseen data, laying the groundwork for future scalability and exploration with larger datasets.
 
-Alongside widely used supervised feature selection approaches such as filter and wrapper methods, global search methods like Genetic Algorithm emerge as potent techniques for this purpose.
-
-In our project, we introduce modern metaheuristic methods designed to identify viable solutions in feature selection tasks using a Support Vector Machine model. This includes Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm, offering a diverse array of approaches to optimize feature selection processes.
+Furthermore, feature selection comparison sheds light on the effectiveness of different metaheuristic methods. Simulated Annealing, Variable Neighborhood Search, and Genetic Algorithm outperformed the base model and showcased competitive performance. Simulated Annealing, particularly, exhibited superior efficacy compared to Variable Neighborhood Search and demonstrated similar effectiveness to Genetic Algorithm. This highlights the potential of metaheuristic methods in feature selection tasks and underscores opportunities for further research to optimize predictive modeling in credit granting scenarios.
 
 ## Dataset
 The dataset we used for this project is the German Credit Data, which categorises loan applicants
